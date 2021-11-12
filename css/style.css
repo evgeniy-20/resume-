@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/fa-regular-400.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+.fa-map-marker-alt {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: rgb(10, 136, 136);
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-map-marker-alt:before {
+    content: "\f3c5"; 
+}
+.fa-envelope {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-envelope::before {
+    content: "\f0e0";
+}
+.fa-phone-alt {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-phone-alt::before {
+    content: "\f879";
+}
+.fa-telegram {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-telegram::before {
+    content: "\f2c6";
+}
+.fa-skype {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.fa-skype::before {
+    content: "\f17e";
+}
+.fa-info-square {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-info-square::before {
+    content: "\f129";
+}
+.fa-graduation-cap {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 24px;
+}
+.fa-graduation-cap::before {
+    content: "\f19d";
+}
+.fa-smile {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 24px;
+}
+.fa-smile::before {
+    content: "\f118";
+}
+.fa-discourse {
+    font-family: 'iconfont';
+    font-style: normal;
+    color: #3498db;
+    text-decoration: none;
+    font-size: 24px;
+}
+.fa-discourse {
+    content: "\f393";
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+}
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 40px 20px 40px 20px;
+}
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+    background-color: #1e2939;
+    width: 570px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-photo {
+    width: 400px;
+}
+.about-me-container {
+    padding: 110px 90px 110px 90px;
+}
+.contacts-container {
+    margin: 60px 40px 0 40px;
+}
+.contacts-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 0 40px 0;
+}
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535a65;
+    padding-left: 20px;
+}
+.contacts-link-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+}
+.tech-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.tech-skills-container {
+    margin: 55px 40px 0 40px;
+}
+.tech-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e3630e;
+    margin-left: 15px;
+}
+.tech-skills-text {
+    color: #a8abb0;
+}
+.soft-skills-container {
+    margin: 55px 40px 0 40px;
+}
+.soft-skills-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.soft-skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e3630e;
+    margin-left: 15px;
+}
+.soft-skills-text {
+    color: #a8abb0;
+}
+.profesion {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 23px 0;
+}
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+.misto {
+    display: flex;
+}
+.age {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 0 30px;
+}
+.discription {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px 0 0 0;
+}
+.my-information {
+    margin-bottom: 65px;
+}
+.about-me-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.projects-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+.tech-name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+.dots {
+    color: #bebebe;
+    font-weight: 100;
+}
+.projects-item {
+    font-weight: 700;
+    margin-left: 17px;
+}
+.projects-container {
+    margin-bottom: 55px;
+}
+.profession-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 10px 0 15px 0;
+}
+.profession-company {
+    color: #ff7011
+}
+.profession-time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #a8a8a8;
+}
+.profession-divider {
+    color: #000;
+}
+.profession-duties {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.profession-duties-item {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
